@@ -46,7 +46,7 @@ def check_board(player_1, player_2):
     global break_val
     row1 = [playing_board[0][0], playing_board[0][2], playing_board[0][4]]
     row2 = [playing_board[1][0], playing_board[1][2], playing_board[1][4]]
-    row3 = [playing_board[1][0], playing_board[1][2], playing_board[1][4]]
+    row3 = [playing_board[2][0], playing_board[2][2], playing_board[2][4]]
     col1 = [playing_board[0][0], playing_board[1][0], playing_board[2][0]]
     col2 = [playing_board[0][2], playing_board[1][2], playing_board[2][2]]
     col3 = [playing_board[0][4], playing_board[1][4], playing_board[2][4]]
